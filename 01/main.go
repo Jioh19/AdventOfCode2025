@@ -12,7 +12,7 @@ func posMod(value, mod int) int {
 }
 
 func main() {
-	filename := "input.txt"
+	filename := "test.txt"
 	file, err := os.Open(filename)
 	if err != nil {
 		fmt.Println("Error opening file:", err)

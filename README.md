@@ -8,11 +8,9 @@ My solutions to [Advent of Code 2025](https://adventofcode.com/2025) written in 
 AdventOfCode2025/
 ├── 01/
 │   ├── main.go      # Solution for Day 1
-│   ├── input.txt    # Puzzle input
 │   └── test.txt     # Test input
 ├── 02/
 │   ├── main.go      # Solution for Day 2
-│   ├── input.txt    # Puzzle input
 │   └── test.txt     # Test input
 └── README.md
 ```

@@ -47,7 +47,7 @@ func rep(num int) bool {
 }
 
 func main() {
-	filename := "input.txt"
+	filename := "test.txt"
 	file, err := os.Open(filename)
 	if err != nil {
 		fmt.Println("Error opening file:", err)

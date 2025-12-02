@@ -33,10 +33,10 @@ go run main.go
 **Key Concepts**: Modular arithmetic, positive modulo implementation
 
 ### Day 2: Invalid ID Detection
-- **Part 1**: Find palindromic IDs (first half mirrors second half)
-- **Part 2**: Find IDs that are repeated patterns (e.g., 1234**1234**, 12**12**12)
+- **Part 1**: Find IDs where the first half equals the second half (e.g., 1234**1234**, 12**12**)
+- **Part 2**: Find IDs that are repeated patterns of any length (e.g., 1234**1234**, 123**123**123, 1**1**1**1**)
 
-**Key Concepts**: String pattern matching, palindrome detection, repeated pattern recognition
+**Key Concepts**: String pattern matching, repeated pattern recognition
 
 ## 🛠️ Prerequisites
 

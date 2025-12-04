@@ -38,6 +38,18 @@ go run main.go
 
 **Key Concepts**: String pattern matching, repeated pattern recognition
 
+### Day 3: Maximum Number Selection
+- **Part 1**: Find the largest two-digit number by selecting two digits from a string
+- **Part 2**: Select the largest 12-digit number possible from the string
+
+**Key Concepts**: Greedy algorithms, digit selection optimization
+
+### Day 4: Grid Pattern Analysis
+- **Part 1**: Count positions marked with "@" that have at least one empty adjacent cell
+- **Part 2**: Iteratively remove "@" symbols that meet the criteria until none remain
+
+**Key Concepts**: Grid traversal, neighbor checking, iterative processing
+
 ## 🛠️ Prerequisites
 
 - Go 1.23 or higher
@@ -48,6 +60,8 @@ go run main.go
 |-----|--------|--------|----------|
 | 01  | ⭐     | ⭐     | [main.go](01/main.go) |
 | 02  | ⭐     | ⭐     | [main.go](02/main.go) |
+| 03  | ⭐     | ⭐     | [main.go](03/main.go) |
+| 04  | ⭐     | ⭐     | [main.go](04/main.go) |
 
 ## 📖 About Advent of Code
 

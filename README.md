@@ -11,27 +11,21 @@ AdventOfCode2025/
 │   └── test.txt     # Test input
 ├── 02/
 │   ├── main.go      # Solution for Day 2
-│   ├── input.txt    # Puzzle input
 │   └── test.txt     # Test input
 ├── 03/
 │   ├── main.go      # Solution for Day 3
-│   ├── input.txt    # Puzzle input
 │   └── test.txt     # Test input
 ├── 04/
 │   ├── main.go      # Solution for Day 4
-│   ├── input.txt    # Puzzle input
 │   └── test.txt     # Test input
 ├── 05/
 │   ├── main.go      # Solution for Day 5
-│   ├── input.txt    # Puzzle input
 │   └── test.txt     # Test input
 ├── 06/
 │   ├── main.go      # Solution for Day 6
-│   ├── input.txt    # Puzzle input
 │   └── test.txt     # Test input
 ├── 07/
 │   ├── main.go      # Solution for Day 7
-│   ├── input.txt    # Puzzle input
 │   └── test.txt     # Test input
 └── README.md
 ```

@@ -50,6 +50,18 @@ go run main.go
 
 **Key Concepts**: Grid traversal, neighbor checking, iterative processing
 
+### Day 5: Range Matching and Merging
+- **Part 1**: Count how many IDs fall within given ranges
+- **Part 2**: Merge overlapping ranges and count total numbers covered
+
+**Key Concepts**: Interval merging, range intersection, overlap detection
+
+### Day 6: Column Operations
+- **Part 1**: Apply operations (+, *) column-wise across rows of numbers
+- **Part 2**: Parse vertical numbers and apply operations based on operator positions
+
+**Key Concepts**: 2D array processing, vertical number parsing, operator application
+
 ## 🛠️ Prerequisites
 
 - Go 1.23 or higher
@@ -62,6 +74,8 @@ go run main.go
 | 02  | ⭐     | ⭐     | [main.go](02/main.go) |
 | 03  | ⭐     | ⭐     | [main.go](03/main.go) |
 | 04  | ⭐     | ⭐     | [main.go](04/main.go) |
+| 05  | ⭐     | ⭐     | [main.go](05/main.go) |
+| 06  | ⭐     | ⭐     | [main.go](06/main.go) |
 
 ## 📖 About Advent of Code
 

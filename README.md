@@ -11,6 +11,27 @@ AdventOfCode2025/
 │   └── test.txt     # Test input
 ├── 02/
 │   ├── main.go      # Solution for Day 2
+│   ├── input.txt    # Puzzle input
+│   └── test.txt     # Test input
+├── 03/
+│   ├── main.go      # Solution for Day 3
+│   ├── input.txt    # Puzzle input
+│   └── test.txt     # Test input
+├── 04/
+│   ├── main.go      # Solution for Day 4
+│   ├── input.txt    # Puzzle input
+│   └── test.txt     # Test input
+├── 05/
+│   ├── main.go      # Solution for Day 5
+│   ├── input.txt    # Puzzle input
+│   └── test.txt     # Test input
+├── 06/
+│   ├── main.go      # Solution for Day 6
+│   ├── input.txt    # Puzzle input
+│   └── test.txt     # Test input
+├── 07/
+│   ├── main.go      # Solution for Day 7
+│   ├── input.txt    # Puzzle input
 │   └── test.txt     # Test input
 └── README.md
 ```
@@ -62,6 +83,12 @@ go run main.go
 
 **Key Concepts**: 2D array processing, vertical number parsing, operator application
 
+### Day 7: Path Counting with Splits
+- **Part 1**: Simulate falling objects through a grid, counting collision points
+- **Part 2**: Count all possible paths from start to end with branching at split points
+
+**Key Concepts**: Dynamic programming, memoization, path counting, recursive traversal
+
 ## 🛠️ Prerequisites
 
 - Go 1.23 or higher
@@ -76,6 +103,7 @@ go run main.go
 | 04  | ⭐     | ⭐     | [main.go](04/main.go) |
 | 05  | ⭐     | ⭐     | [main.go](05/main.go) |
 | 06  | ⭐     | ⭐     | [main.go](06/main.go) |
+| 07  | ⭐     | ⭐     | [main.go](07/main.go) |
 
 ## 📖 About Advent of Code
 

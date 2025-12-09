@@ -26,7 +26,13 @@ AdventOfCode2025/
 │   └── test.txt     # Test input
 ├── 07/
 │   ├── main.go      # Solution for Day 7
+│   ├── input.txt    # Puzzle input (gitignored)
 │   └── test.txt     # Test input
+├── 08/
+│   ├── main.go      # Solution for Day 8
+│   ├── input.txt    # Puzzle input (gitignored)
+│   └── test.txt     # Test input
+├── .gitignore       # Ignores input.txt files
 └── README.md
 ```
 
@@ -83,6 +89,12 @@ go run main.go
 
 **Key Concepts**: Dynamic programming, memoization, path counting, recursive traversal
 
+### Day 8: Junction Box Clustering
+- **Part 1**: Connect 1000 closest pairs of junction boxes and find product of 3 largest circuits
+- **Part 2**: Connect all boxes into one circuit and multiply X coordinates of final connection
+
+**Key Concepts**: Union-Find (Disjoint Set Union), Minimum Spanning Tree, greedy clustering, 3D distance calculation
+
 ## 🛠️ Prerequisites
 
 - Go 1.23 or higher
@@ -98,6 +110,7 @@ go run main.go
 | 05  | ⭐     | ⭐     | [main.go](05/main.go) |
 | 06  | ⭐     | ⭐     | [main.go](06/main.go) |
 | 07  | ⭐     | ⭐     | [main.go](07/main.go) |
+| 08  | ⭐     | ⭐     | [main.go](08/main.go) |
 
 ## 📖 About Advent of Code
 

@@ -26,21 +26,19 @@ AdventOfCode2025/
 │   └── test.txt     # Test input
 ├── 07/
 │   ├── main.go      # Solution for Day 7
-│   ├── input.txt    # Puzzle input (gitignored)
 │   └── test.txt     # Test input
 ├── 08/
 │   ├── main.go      # Solution for Day 8
-│   ├── input.txt    # Puzzle input (gitignored)
 │   └── test.txt     # Test input
 ├── 09/
 │   ├── main.go      # Solution for Day 9
-│   ├── input.txt    # Puzzle input (gitignored)
 │   └── test.txt     # Test input
 ├── 10/
 │   ├── main.go      # Solution for Day 10
-│   ├── input.txt    # Puzzle input (gitignored)
 │   └── test.txt     # Test input
-├── .gitignore       # Ignores input.txt files
+├── 11/
+│   ├── main.go      # Solution for Day 11
+│   └── test.txt     # Test input
 └── README.md
 ```
 
@@ -115,6 +113,12 @@ go run main.go
 
 **Key Concepts**: Breadth-First Search (BFS), XOR operations, binary manipulation, state space exploration
 
+### Day 11: Tree Path Counting
+- **Part 1**: Count all paths from root node to "out" node in a tree structure
+- **Part 2**: Count paths that pass through both "fft" and "dac" nodes before reaching "out"
+
+**Key Concepts**: Tree traversal, recursion, memoization, graph building from input
+
 ## 🛠️ Prerequisites
 
 - Go 1.23 or higher
@@ -133,6 +137,7 @@ go run main.go
 | 08  | ⭐     | ⭐     | [main.go](08/main.go) |
 | 09  | ⭐     | ⭐     | [main.go](09/main.go) |
 | 10  | ⭐     |        | [main.go](10/main.go) |
+| 11  | ⭐     | ⭐     | [main.go](11/main.go) |
 
 ## 📖 About Advent of Code
 

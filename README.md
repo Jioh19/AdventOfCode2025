@@ -32,6 +32,14 @@ AdventOfCode2025/
 │   ├── main.go      # Solution for Day 8
 │   ├── input.txt    # Puzzle input (gitignored)
 │   └── test.txt     # Test input
+├── 09/
+│   ├── main.go      # Solution for Day 9
+│   ├── input.txt    # Puzzle input (gitignored)
+│   └── test.txt     # Test input
+├── 10/
+│   ├── main.go      # Solution for Day 10
+│   ├── input.txt    # Puzzle input (gitignored)
+│   └── test.txt     # Test input
 ├── .gitignore       # Ignores input.txt files
 └── README.md
 ```
@@ -95,6 +103,18 @@ go run main.go
 
 **Key Concepts**: Union-Find (Disjoint Set Union), Minimum Spanning Tree, greedy clustering, 3D distance calculation
 
+### Day 9: Rectangle Area with Constraints
+- **Part 1**: Find largest rectangle using any two red tiles as opposite corners
+- **Part 2**: Find largest rectangle where red tiles are opposite corners and all tiles inside are red or green (boundary + interior)
+
+**Key Concepts**: Computational geometry, flood fill, polygon interior detection, coordinate compression, rectangle validation
+
+### Day 10: XOR Path Finding
+- **Part 1**: Find shortest sequence of XOR operations to reach target using available values
+- **Part 2**: TBD
+
+**Key Concepts**: Breadth-First Search (BFS), XOR operations, binary manipulation, state space exploration
+
 ## 🛠️ Prerequisites
 
 - Go 1.23 or higher
@@ -111,6 +131,8 @@ go run main.go
 | 06  | ⭐     | ⭐     | [main.go](06/main.go) |
 | 07  | ⭐     | ⭐     | [main.go](07/main.go) |
 | 08  | ⭐     | ⭐     | [main.go](08/main.go) |
+| 09  | ⭐     | ⭐     | [main.go](09/main.go) |
+| 10  | ⭐     |        | [main.go](10/main.go) |
 
 ## 📖 About Advent of Code
 
